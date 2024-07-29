@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(55, 17, 124);
+  font-family: Arial, sans-serif;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button-wrapper button {
+  padding: 10px 70px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+h2.vs {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.players input {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  transition: background-color 0.3s;
+}
+
+.square.x {
+  color: red;
+}
+
+.square.o {
+  color: green;
+}
+
+.square:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.winner-announcement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.celebration-icon {
+  margin-right: 10px;
+}
